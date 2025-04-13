@@ -20,7 +20,7 @@ Caso queira testar, escreva um "INSERT id=1 nome=Joao" no terminal onde está o 
 ## Instalações 
 
 Baixe as seguintes extensões:
-C/C++ Extension Pack
-Code Runner
-Makefile Tools
+C/C++ Extension Pack <br>
+Code Runner <br>
+Makefile Tools <br>
 
