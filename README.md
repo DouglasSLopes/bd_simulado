@@ -1,12 +1,12 @@
-## Trabalho M1 de Sistema Operacionais (SO)
+a## Trabalho M1 de Sistema Operacionais (SO)
 
 Primeiro trabalho de Sistema Operacionais do curso de Ciência da Computação
 
 ## Como rodar?
 
-Siga os seguintes comandos para rodar
-
 O código só foi testado no codespace, não foi testando em outros IDEs
+
+### Siga os seguintes comandos para rodar
 ```
 Primeiramente, esteja na pasta bd_simulado, se não estiver escreve o seguinte comando no terminal "cd_simulado".
 Depois, escreve o comando "make" no terminal para rodar os codigos que estão nele.
