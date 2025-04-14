@@ -1,4 +1,3 @@
-// banco.c
 #include "banco.h"
 #include <stdio.h>
 #include <string.h>

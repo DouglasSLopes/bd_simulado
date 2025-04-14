@@ -1,11 +1,11 @@
-// banco.h
 #ifndef BANCO_H
 #define BANCO_H
 
 #define MAX_REGISTROS 100
 #define TAM_NOME 50
 
-typedef struct {
+typedef struct
+{
     int id;
     char nome[TAM_NOME];
 } Registro;
