@@ -1,24 +1,29 @@
 #ifndef BANCO_H
 #define BANCO_H
+// Evita inclusões múltiplas deste cabeçalho no mesmo projeto.
+// Se BANCO_H ainda não foi definido, define agora.
+// Isso evita redefinições e conflitos em tempo de compilação.
 
-#define MAX_REGISTROS 100
-#define TAM_NOME 50
+#define MAX_REGISTROS 100     // Define o número máximo de registros que o banco pode armazenar
+#define TAM_NOME 50           // Define o tamanho máximo permitido para o nome de cada registro
 
-typedef struct
-{
-    int id;
-    char nome[TAM_NOME];
+// Define a estrutura de um registro no banco
+typedef struct {
+    int id;                   // Identificador único do registro
+    char nome[TAM_NOME];      // Nome associado ao ID (array de caracteres)
 } Registro;
 
-extern Registro banco_de_dados[MAX_REGISTROS];
-extern int total_registros;
+// Declaração de variáveis globais que serão definidas em um arquivo .c (ex: banco.c)
+extern Registro banco_de_dados[MAX_REGISTROS]; // Array de registros (o "banco de dados" em memória)
+extern int total_registros;                    // Quantidade atual de registros inseridos
 
-void inicializar_banco();
-int inserir(int id, const char *nome);
-int deletar(int id);
-int selecionar(int id, char *out_nome);
-int atualizar(int id, const char *novo_nome);
-void salvar_em_arquivo();
-void carregar_do_arquivo();
+// Declaração das funções que serão implementadas em banco.c
+void inicializar_banco();                       // Carrega os dados de um arquivo para memória
+int inserir(int id, const char *nome);          // Insere um novo registro
+int deletar(int id);                            // Deleta um registro pelo ID
+int selecionar(int id, char *out_nome);         // Busca um registro pelo ID e retorna o nome
+int atualizar(int id, const char *novo_nome);   // Atualiza o nome de um registro
+void salvar_em_arquivo();                       // Salva os dados atuais em um arquivo de texto
 
 #endif
+// Fim da diretiva de inclusão condicional
