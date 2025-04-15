@@ -16,7 +16,6 @@ Pronto, o seu código está funcionando.
 
 >Caso queira testar, escreva um ```INSERT id=1 nome=Joao``` no terminal onde está o ```./cliente```, e para verificar se está funcionando vai para o terminal onde está o ```./servidor``` que irá mostra se o ```requisição foi realizada com sucesso```, caso queira ver todos os dados vai para o arquivo ```banco.txt```.
 
-
 ## Instalações 
 
 **Baixe as seguintes extensões:** <br>
