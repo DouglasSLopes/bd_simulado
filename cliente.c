@@ -1,8 +1,8 @@
-#include <stdio.h>     // Biblioteca padrão de entrada/saída (fgets, printf, perror)
-#include <stdlib.h>    // Biblioteca padrão para funções utilitárias (não usada diretamente aqui)
-#include <string.h>    // Biblioteca para manipulação de strings (strlen)
-#include <fcntl.h>     // Para controle de arquivos (open, O_WRONLY)
-#include <unistd.h>    // Para chamadas de sistema Unix (write, close)
+#include <stdio.h>     
+#include <stdlib.h>    
+#include <string.h>    
+#include <fcntl.h>     // Controle de arquivos (open)
+#include <unistd.h>    // Funções POSIX (read, write, close, etc.)
 
 #define FIFO_PATH "/tmp/fifo_requisicoes" // Caminho absoluto para a FIFO usada para comunicação
 

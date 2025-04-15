@@ -1,8 +1,5 @@
 #ifndef BANCO_H
 #define BANCO_H
-// Evita inclusões múltiplas deste cabeçalho no mesmo projeto.
-// Se BANCO_H ainda não foi definido, define agora.
-// Isso evita redefinições e conflitos em tempo de compilação.
 
 #define MAX_REGISTROS 100     // Define o número máximo de registros que o banco pode armazenar
 #define TAM_NOME 50           // Define o tamanho máximo permitido para o nome de cada registro

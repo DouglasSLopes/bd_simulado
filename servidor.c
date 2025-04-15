@@ -1,7 +1,7 @@
-#include "banco.h"         // Cabeçalho com operações do "banco de dados" (insert, select, etc.)
-#include <stdio.h>         // Entrada/saída padrão
-#include <stdlib.h>        // Funções utilitárias (malloc, free, etc.)
-#include <string.h>        // Manipulação de strings
+#include "banco.h"
+#include <stdio.h>         
+#include <stdlib.h>        
+#include <string.h>        
 #include <pthread.h>       // Threads POSIX
 #include <fcntl.h>         // Controle de arquivos (open)
 #include <unistd.h>        // Funções POSIX (read, write, close, etc.)

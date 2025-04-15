@@ -1,6 +1,6 @@
-#include "banco.h"          // Inclui o cabeçalho com a definição da struct Registro e constantes como MAX_REGISTROS
-#include <stdio.h>          // Para entrada e saída (fopen, fprintf, etc.)
-#include <string.h>         // Para manipulação de strings (strncpy, strcpy, etc.)
+#include "banco.h"          
+#include <stdio.h>          
+#include <string.h>         
 
 // Banco de dados em memória: um array de registros
 Registro banco[MAX_REGISTROS];
